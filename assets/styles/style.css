@@ -234,3 +234,44 @@ color:var(--black-btn-color)
     font-size: 1.5em;
 }
 
+
+@media (min-width: 800px){
+    
+
+
+
+    /* FOOTER */
+    .footer-img{
+        height: 806px;
+    }
+
+    .footer-nav{
+        height: 320px;
+    }
+
+    /* NAV BAR */
+    .nav-bar-container{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 82px;
+        background-color: var(--main-bg-color);
+    }
+
+    .constraint{
+        max-width: 90%;
+        margin: auto;
+    }
+
+    
+    .prince-logo{
+        font-family: var(--font-vegan-style);
+        color: var(--orange-paraph-color);
+        font-size: 28px;
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+}

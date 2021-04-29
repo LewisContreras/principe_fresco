@@ -1,17 +1,20 @@
 {
-  "name": "principe_fresco",
+  "name": "imc-c6",
   "version": "1.0.0",
-  "description": "",
+  "description": "Principe fresco",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack --mode development",
+    "build": "npx webpack --mode production",
+    "start": "npx webpack",
+    "serve": "npx webpack serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Thelimon/principe_fresco.git"
+    "url": "https://github.com/Thelimon/principe_fresco"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Daniela, Mauricio, Lewis & Juan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Thelimon/principe_fresco/issues"

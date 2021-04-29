@@ -3,7 +3,6 @@
     --blue-btn-color:#4276FB;
     --black-btn-color:#1D1D1D;
     --orange-paraph-color: #ff4c13;
-<<<<<<< HEAD
     --font-vegan-style:'Vegan Style Personal Use';
 }
 
@@ -64,10 +63,7 @@ body{
     color: var(--main-bg-color);
     font-size: 1.5em;
 }
-=======
-}
 
-<<<<<<< HEAD
 main{
 width: 90%;
 margin: auto;
@@ -144,7 +140,7 @@ margin: auto;
 text-align: left;
 color:var(--black-btn-color)
 }
-=======
+
 html body{
     margin: 0;
     padding: 0;

@@ -3,4 +3,63 @@
     --blue-btn-color:#4276FB;
     --black-btn-color:#1D1D1D;
     --orange-paraph-color: #ff4c13;
+    --font-vegan-style:'Vegan Style Personal Use';
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#footer-container{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-img{
+    height: 212px;
+    width: 100vw;
+    background-image: url("https://i.ibb.co/XDRmcKH/cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-nav{
+    height: 215px;
+    background-color: var(--black-btn-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav p{
+    font-family: var(--font-vegan-style);
+    color: var(--orange-paraph-color);
+    font-size: 28px;
+}
+
+.social-media-container{
+    display: flex;
+}
+
+.social-link{
+    display: block;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin: 16px;
+    border: 1px solid var(--main-bg-color);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link i{
+    color: var(--main-bg-color);
+    font-size: 1.5em;
 }

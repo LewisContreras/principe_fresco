@@ -3,9 +3,50 @@
     --blue-btn-color:#4276FB;
     --black-btn-color:#1D1D1D;
     --orange-paraph-color: #ff4c13;
-<<<<<<< HEAD
     --font-vegan-style:'Vegan Style Personal Use';
 }
+
+body {
+    margin: 0px;
+}
+
+aside {
+    text-align: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.aside-tittle {
+    font-weight: 32px;
+    line-height: 80px;
+    letter-spacing: -1px;
+}
+
+.aside-section {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+  
+.container {
+    padding: 2px 16px;
+    font-weight: 16px;
+    letter-spacing: -2px;
+}
+
+.aside-img {
+    border-radius: 1px;
+    width: 190px;
+    height: 285px;
+}
+
 
 body{
     padding: 0;
@@ -64,10 +105,8 @@ body{
     color: var(--main-bg-color);
     font-size: 1.5em;
 }
-=======
-}
 
-<<<<<<< HEAD
+
 main{
 width: 90%;
 margin: auto;
@@ -144,7 +183,7 @@ margin: auto;
 text-align: left;
 color:var(--black-btn-color)
 }
-=======
+
 html body{
     margin: 0;
     padding: 0;
@@ -205,5 +244,3 @@ ul.slider li{
     padding: .3rem;
 }
 
->>>>>>> 6497f9cf0da988fe067a90d53fe1e5cf4663bf8a
->>>>>>> efdcaedfeb144c5c22b1b8332ed8ec5959b6fb89

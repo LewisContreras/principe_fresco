@@ -236,9 +236,10 @@ color:var(--black-btn-color)
 
 
 @media (min-width: 800px){
-    
-
-
+    html body{
+        width: 90%
+        box-sizing: border-box;
+    }
 
     /* FOOTER */
     .footer-img{
@@ -264,7 +265,78 @@ color:var(--black-btn-color)
         margin: auto;
     }
 
+    .desktop{
+        display: flex;       
+    }
+
+    .desktop .copia-container{
+        display: flex;
+        flex: 1 1 14%;
+        
+    }
+
+    .desktop .container{
+        display: flex;
+        flex: 1 1 43%;
+    }
+
+    .desktop main{
+        flex: 1 1 43%;
     
+    }
+
+    .header-slider{
+        width: auto;
+    }
+    
+    ul.slider{
+        margin-top: 100px;
+        position: static;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    ul.slider li{
+        position: static;
+        left: 0;
+        top: 0;
+        opacity: 1;
+      
+    }
+    
+    .slider li img{
+        width: 100%;
+        height: auto;
+    }
+
+    .copia-slider {
+        width: 100%;
+        margin-top: 100px;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    
+    .copia-slider  li img{
+        margin: 0;
+        width: 100%;     
+    }
+
+    header .menu{
+        display: none;
+    }
+    
+
+    aside{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+    
+
+    }
+
+
     .prince-logo{
         font-family: var(--font-vegan-style);
         color: var(--orange-paraph-color);

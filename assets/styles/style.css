@@ -6,6 +6,73 @@
     --font-vegan-style:'Vegan Style Personal Use';
 }
 
+html body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-slider{
+    width: 100%;
+}
+ul.slider{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.slider li:first-child{
+    opacity: 1;
+}
+
+.slider li:target{
+    opacity: 1;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin: .5rem;
+}
+
+.menu li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: .3rem;
+}
+
+.aside-img {
+    border-radius: 1px;
+    width: 190px;
+    height: 285px;
+}
+
+
 body{
     padding: 0;
     margin: 0;
@@ -201,5 +268,3 @@ ul.slider li{
     padding: .3rem;
 }
 
->>>>>>> 6497f9cf0da988fe067a90d53fe1e5cf4663bf8a
->>>>>>> efdcaedfeb144c5c22b1b8332ed8ec5959b6fb89

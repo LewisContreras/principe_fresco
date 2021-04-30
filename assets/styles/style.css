@@ -238,6 +238,10 @@ color:var(--black-btn-color)
     display: none;
 }
 
+.copia-container{
+    display: none;
+}
+
 @media (min-width: 800px){
 
 
@@ -250,6 +254,10 @@ color:var(--black-btn-color)
     .footer-nav{
         height: 320px;
         max-width: 100%;
+    }
+    
+    .nav-fixed{
+        display: none;
     }
 
     /* NAV BAR */

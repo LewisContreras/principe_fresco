@@ -411,3 +411,7 @@ color:var(--black-btn-color)
 .despliegue .x-despliegue {
     color: var(--blue-btn-color);
 }
+
+.nav-despliegue:hover .despliegue {
+    display: block;
+}
